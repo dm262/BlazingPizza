@@ -1,0 +1,310 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.Server/BlazingPizza.Server.csproj": {}
+  },
+  "projects": {
+    "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.Client/BlazingPizza.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.Client/BlazingPizza.Client.csproj",
+        "projectName": "BlazingPizza.Client",
+        "projectPath": "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.Client/BlazingPizza.Client.csproj",
+        "packagesPath": "/Users/dapomakanjuola/.nuget/packages/",
+        "outputPath": "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dapomakanjuola/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.ComponentsLibrary/BlazingPizza.ComponentsLibrary.csproj": {
+                "projectPath": "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.ComponentsLibrary/BlazingPizza.ComponentsLibrary.csproj"
+              },
+              "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.Shared/BlazingPizza.Shared.csproj": {
+                "projectPath": "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.Shared/BlazingPizza.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.4, 6.0.4]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.ComponentsLibrary/BlazingPizza.ComponentsLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.ComponentsLibrary/BlazingPizza.ComponentsLibrary.csproj",
+        "projectName": "BlazingPizza.ComponentsLibrary",
+        "projectPath": "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.ComponentsLibrary/BlazingPizza.ComponentsLibrary.csproj",
+        "packagesPath": "/Users/dapomakanjuola/.nuget/packages/",
+        "outputPath": "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.ComponentsLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dapomakanjuola/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.Server/BlazingPizza.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.Server/BlazingPizza.Server.csproj",
+        "projectName": "BlazingPizza.Server",
+        "projectPath": "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.Server/BlazingPizza.Server.csproj",
+        "packagesPath": "/Users/dapomakanjuola/.nuget/packages/",
+        "outputPath": "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.Server/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dapomakanjuola/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.Client/BlazingPizza.Client.csproj": {
+                "projectPath": "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.Client/BlazingPizza.Client.csproj"
+              },
+              "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.Shared/BlazingPizza.Shared.csproj": {
+                "projectPath": "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.Shared/BlazingPizza.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.ApiAuthorization.IdentityServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.Shared/BlazingPizza.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.Shared/BlazingPizza.Shared.csproj",
+        "projectName": "BlazingPizza.Shared",
+        "projectPath": "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.Shared/BlazingPizza.Shared.csproj",
+        "packagesPath": "/Users/dapomakanjuola/.nuget/packages/",
+        "outputPath": "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dapomakanjuola/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.ComponentsLibrary/BlazingPizza.ComponentsLibrary.csproj": {
+                "projectPath": "/Users/dapomakanjuola/vscode/webappProject/BlazingPizza.ComponentsLibrary/BlazingPizza.ComponentsLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
