@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "V8N7pFLFndAG6cQ/1VmJmUxgXCduiN28+oGFlWbaoPo=",
+  "Hash": "ReJHJoSFUN57UW5u/0UJF9fE6EcEsR4ua6xEHkq+GaE=",
   "Source": "BlazingPizza.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "BlazingPizza.ComponentsLibrary",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
     }
   ],
